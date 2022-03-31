@@ -1,14 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 .container {
     width: 80%;
     margin: auto;
     display: flex;
     flex-wrap: wrap;
+}
 
-    .product-card {
+.product-card {
     height: 300px;
     width: 150px;
     background-color: teal;
     color: white;
-    }
+    margin: 5px;
+    padding: 5px;
 }
 
